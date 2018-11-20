@@ -1,12 +1,11 @@
 body{
-    background-color:black;
+    background-color:white;
     font-family: 'Doppio One';
     height: 100%;
     margin: 0;
-    color:white;
+    color:black;
 }
 h1 {
-    color:white;
     font-size: 3em;
 }
 .hero-image {
@@ -28,7 +27,7 @@ h1 {
 #dragonImg{
     width:30%;
     float:right;
-    filter:invert(100%);
+    /*filter:invert(100%);*/
 }
 #dragonEvent{
     width:30%;
@@ -38,3 +37,29 @@ h1 {
     width:40%;
     float:left;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/*https://www.w3schools.com/howto/howto_js_sticky_header.asp*/
