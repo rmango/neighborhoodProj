@@ -1,5 +1,5 @@
 body{
-    background-color:white;
+    background-color:rgba(244, 244, 244, 1);
     height: 100%;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -7,12 +7,20 @@ body{
 }
 h1 {
     font-size: 3em;
-    padding: 0 0 0 0.25em;
+    padding: 0 0 0 2em;
     font-family: 'Doppio One';
 
 }
 p {
-    padding: 0 0 0 2em;
+    padding: 0 10em 0 10em;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 
 .hero-image {
@@ -29,7 +37,7 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: rgba(244, 244, 244, 1);
 }
 #dragonImg{
     width:30%;
@@ -59,9 +67,9 @@ li {
 
 li a {
     display: block;
-    color: white;
+    color: rgba(244, 244, 244, 1);
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 45px;
     text-decoration: none;
 }
 
@@ -85,3 +93,16 @@ li a:hover {
   .flex-container > img {
       flex-grow:1;
   }
+
+  footer {
+      padding:5em;
+      background-color:#333;
+      color:rgba(244, 244, 244, 1);
+  }
+
+footer a{
+    display:block;
+    text-align:center;
+    text-decoration: none;
+    color: rgba(244, 244, 244, 1);
+}
