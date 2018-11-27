@@ -1,5 +1,3 @@
-console.log("Im running");
-
 var header = document.getElementById("myHeader");
 var sticky = header.offsetTop;
 
